@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ТОО "Корпорация Gulfstream" - Высококачественная электротехническая продукция в Казахстане</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" href="http://asiaelectro.kz/wp-content/uploads/2018/10/faviconG-1.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/css/swiper.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://yarn.pm/normalize.css">
+    <script src="https://use.fontawesome.com/103e8609ea.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/103e8609ea.css" media="all">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+        
+
+  <script>
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        //document.getElementById("navbar").style.animationDuration = "0.8s",
+        //document.getElementById("navbar").style.animationName = "topchik",
+        document.getElementById("navbar").style.position = "fixed";
+        document.getElementById("navbar").style.padding = "2em 10px";
+        document.getElementById("logo").style.fontSize = "1.1em";
+        document.getElementById("header__text").style.display = "none";
+        document.getElementById("header__text2").style.display = "none";
+        document.getElementById("logo").style.gridRow = "1 / 3";
+        document.getElementById("navbar-bottom").style.gridRow = "1 / 3";
+        document.getElementById("navbar-bottom").style.gridColumn = "3 / 7";
+        document.getElementById("navbar-bottom").style.borderTop = "none";   
+        document.getElementById("header__numbers").style.display = "none";   
+      } else {
+        document.getElementById("navbar").style.animationName = "",
+        document.getElementById("navbar").style.animationDuration = "",
+        document.getElementById("navbar").style.position = "";
+        document.getElementById("navbar").style.padding = "2em 10px";
+        document.getElementById("logo").style.fontSize = "";
+        document.getElementById("header__text").style.display = "";
+        document.getElementById("header__text2").style.display = "";  
+        document.getElementById("header__numbers").style.display = "";
+        document.getElementById("navbar-bottom").style.gridRow = "";
+        document.getElementById("navbar-bottom").style.gridColumn = "";
+        document.getElementById("navbar-bottom").style.borderTop = "";
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/js/swiper.min.js"></script>
+  <!-- <div class="content">
+    <p class="grey4">Высококачественная электротехническая продукция в Казахстане</p>
+    <span class="material-icons">
+      call
+      </span>
+      
+    <div class="contact3">
+        <a href="tel:87272667518" class="tel grey2">+7 (727) 266-75-18</a>
+        <a href="tel:87272667519" class="tel grey2">+7 (727) 266-75-19</a>
+        <a href="tel:87272667520" class="tel grey2">+7 (727) 266-75-20</a>
+        <a href="#" class="header__numbers-button">Заказать звонок</a>
+        
+    </div>
+  </div> -->
+
+  <div class="content">
+
+
+
+
+    <div class="contact3">
+      <a href="tel:87272667518" class="tel grey2">+7 (727) 266-75-18</a>
+      <a href="tel:87272667519" class="tel grey2">+7 (727) 266-75-19</a>
+      <a href="tel:87272667520" class="tel grey2">+7 (727) 266-75-20</a>
+    </div>
+    
+    <div class = "search_bar">
+      <form role="search" method="get" id="searchform" action="http://asiaelectro.kz/?page_id=188">
+        <input type="search" value="" name="s" id="s" placeholder="Поиск продукции..." autocomplete="off" />
+        <input type="submit" id="searchsubmit" value="Поиск" />
+      </form>
+    </div>
+
+
+    <a href="#" class="header__numbers-button">Заказать звонок</a>
+      
+  </div>
+
+
+
+
+    <header>
+   
+       <div class="wrapper">
+           
+            <hr style = "margin-top: 0;">
+            <nav class="nav">
+              <a href="http://asiaelectro.kz"><img class = "logotype" src="http://asiaelectro.kz/wp-content/uploads/2016/10/logo.png" alt="gulfstream"></a>                    
+                <ul class="menu grey">
+                    <li>
+                      <a href="./index.html" class ="">О компании</a>
+                  </li>
+                  <li>
+                      <a href="./products.html" class="">Наша продукция</a>
+                  </li>
+                  <li>
+                      <a href="./brands.html" class="">Бренды</a>
+                  </li>
+                  <li>
+                      <a href="./projects.html" class="">Проекты</a>
+                  </li>
+                  <li>
+                      <a href="./contacts.html" class="">Контакты</a>
+                  </li>
+                </ul>
+
+                
+                <a href="http://asiaelectro.kz/ostatky/" class="ahref">
+                  <div class="red">
+                    Распродажа
+                    </div>
+                </a>
+            </nav>
+            
+            
+            <!-- <div class = "search_bar">
+              <form role="search" method="get" id="searchform" action="http://asiaelectro.kz/?page_id=188">
+                <input type="search" value="" name="s" id="s" placeholder="Поиск продукции..." autocomplete="off" />
+                <input type="submit" id="searchsubmit" value="Поиск" />
+              </form>
+            </div> -->
+        </div>
+       
+    </header>
+    <main>
+
+
+      <script>
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                document.getElementById("navbar").style.position = "fixed";
+                document.getElementById("navbar").style.padding = "2em 10px";
+                document.getElementById("logo").style.fontSize = "1.1em";
+                document.getElementById("header__text").style.display = "none";
+                document.getElementById("header__text2").style.display = "none";
+                document.getElementById("logo").style.gridRow = "1 / 3";
+                document.getElementById("navbar-bottom").style.gridRow = "1 / 3";
+                document.getElementById("navbar-bottom").style.gridColumn = "3 / 7";
+                document.getElementById("navbar-bottom").style.borderTop = "none";   
+                document.getElementById("header__numbers").style.display = "none";   
+            } else {
+                document.getElementById("navbar").style.animationName = "",
+                document.getElementById("navbar").style.animationDuration = "",
+                document.getElementById("navbar").style.position = "";
+                document.getElementById("navbar").style.padding = "2em 10px";
+                document.getElementById("logo").style.fontSize = "";
+                document.getElementById("header__text").style.display = "";
+                document.getElementById("header__text2").style.display = "";  
+                document.getElementById("header__numbers").style.display = "";
+                document.getElementById("navbar-bottom").style.gridRow = "";
+                document.getElementById("navbar-bottom").style.gridColumn = "";
+                document.getElementById("navbar-bottom").style.borderTop = "";
+            }
+        }
+    </script>
+    <hr style = "margin-top: 2px;">
+	<div style="margin-top: 20px">
+</div>
+
+  
+	
+	
+<section class="slider" style="margin-top: 20px;">
+  <script>
+   $(document).ready(function () {
+    var mySwiper = new Swiper ('.swiper-container', {
+      direction: 'horizontal',
+      loop: true,
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      mousewheelControl: true,
+      keyboardControl: true,
+    })
+  });
+  </script>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href = "http://asiaelectro.kz/?page_id=133" class="swiper-slide-text">
+          <h2 class = "exp">Кабельно-проводниковая продукция</h2>
+          <p class = "th">Продукция для строительства и реконструкции кабельных линий и распределительных сетей.</p>
+          <!-- <button class="swiper-slide-button"><a href="http://asiaelectro.kz/?page_id=133">Открыть каталог</a></button> -->
+          </a>
+          <img src="http://asiaelectro.kz/wp-content/uploads/2018/07/slider1-1-1.jpg">
+        </div>
+        <div class="swiper-slide">
+          <a href = "http://asiaelectro.kz/?page_id=2424" class="swiper-slide-text">
+          <h2>Кабельные муфты</h2>
+          <p class = "th">Продукция для строительства и реконструкции кабельных линий и распределительных сетей.</p>
+          <!-- <button class="swiper-slide-button"><a href="http://asiaelectro.kz/?page_id=2424">Открыть каталог</a></button> -->
+          </a>
+          <img src="http://asiaelectro.kz/wp-content/uploads/2018/07/kab_mufts.jpg">
+        </div>
+        <div class="swiper-slide">
+          <a href = "http://asiaelectro.kz/?page_id=2446" class="swiper-slide-text">
+          <h2>Арматура на СИП</h2>
+          <p>Продукция для строительства и реконструкции кабельных линий и распределительных сетей.</p>
+          <!-- <button class="swiper-slide-button"><a href="http://asiaelectro.kz/?page_id=2446">Открыть каталог</a></button> -->
+          </a>
+          <img src="http://asiaelectro.kz/wp-content/uploads/2018/07/kab_muf.jpg">
+      </div>
+      <div class="swiper-slide">
+          <a href = "http://asiaelectro.kz/?page_id=2466" class="swiper-slide-text">
+          <h2>Арматура на АС</h2>
+          <p>Продукция для строительства и реконструкции кабельных линий и распределительных сетей.</p>
+          <!-- <button class="swiper-slide-button"><a href="http://asiaelectro.kz/?page_id=2466">Открыть каталог</a></button> -->
+          </a>
+          <img src="http://asiaelectro.kz/wp-content/uploads/2018/07/armatura_as.jpg">
+        </div>
+        <div class="swiper-slide">
+          <a href = "http://asiaelectro.kz/?page_id=2490" class="swiper-slide-text">
+          <h2>Светотехника</h2>
+          <p>Продукция для строительства и реконструкции кабельных линий и распределительных сетей.</p>
+          <!-- <button class="swiper-slide-button"><a href="http://asiaelectro.kz/?page_id=2490">Открыть каталог</a></button> -->
+          </a>
+          <img src="http://asiaelectro.kz/wp-content/uploads/2018/07/Svetotehnika-1.jpg">
+        </div>
+        <div class="swiper-slide">
+          <a href = "http://asiaelectro.kz/?page_id=2536" class="swiper-slide-text">
+          <h2>Низковольтное оборудование</h2>
+          <p>Продукция для строительства и реконструкции кабельных линий и распределительных сетей.</p>
+          <!-- <button class="swiper-slide-button"><a href="http://asiaelectro.kz/?page_id=2536">Открыть каталог</a></button> -->
+          </a>
+          <img src="http://asiaelectro.kz/wp-content/uploads/2018/07/slider2-2-1.jpg">
+      </div>
+      <div class="swiper-slide">
+          <a href = "http://asiaelectro.kz/?page_id=40732" class="swiper-slide-text">
+          <h2>Высоковольтное оборудование</h2>
+          <p>Продукция для строительства и реконструкции кабельных линий и распределительных сетей.</p>
+          <!-- <button class="swiper-slide-button"><a href="http://asiaelectro.kz/?page_id=40732">Открыть каталог</a></button> -->
+          </a>
+          <img src="http://asiaelectro.kz/wp-content/uploads/2018/07/slider3-3-1.jpg">
+        </div>
+        <div class="swiper-slide">
+          <a href = "http://asiaelectro.kz/?page_id=40928" class="swiper-slide-text">
+          <h2>Трансформаторы и подстанции</h2>
+          <p>Продукция для строительства и реконструкции кабельных линий и распределительных сетей.</p>
+          <!-- <button class="swiper-slide-button"><a href="http://asiaelectro.kz/?page_id=40928">Открыть каталог</a></button> -->
+          </a>
+          <img src="http://asiaelectro.kz/wp-content/uploads/2018/07/transform-pod.jpg">
+        </div>
+        <div class="swiper-slide">
+          <a href = "http://asiaelectro.kz/?page_id=29010" class="swiper-slide-text">
+          <h2>Кабельные лотки и металлоизделия</h2>
+          <p>Продукция для строительства и реконструкции кабельных линий и распределительных сетей.</p>
+          <!-- <button class="swiper-slide-button"><a href="http://asiaelectro.kz/?page_id=29010">Открыть каталог</a></button> -->
+          </a>
+          <img src="http://asiaelectro.kz/wp-content/uploads/2018/07/kab_lot.jpg">
+      </div>
+      <div class="swiper-slide">
+          <a href = "http://asiaelectro.kz/?page_id=40969" class="swiper-slide-text">
+          <h2>Сборка щитового оборудования</h2>
+          <p>Продукция для строительства и реконструкции кабельных линий и распределительных сетей.</p>
+          <!-- <button class="swiper-slide-button"><a href="http://asiaelectro.kz/?page_id=40969">Открыть каталог</a></button> -->
+          </a>
+          <img src="http://asiaelectro.kz/wp-content/uploads/2018/07/schit-ob.jpg">
+      </div>
+      <div class="swiper-slide">
+          <a href = "http://asiaelectro.kz/?page_id=40967" class="swiper-slide-text">
+          <h2>Полиэтиленовые трубы и аксессуары</h2>
+          <p>Продукция для строительства и реконструкции кабельных линий и распределительных сетей.</p>
+          <!-- <button class="swiper-slide-button"><a href="http://asiaelectro.kz/?page_id=40967">Открыть каталог</a></button> -->
+          </a>
+          <img src="http://asiaelectro.kz/wp-content/uploads/2018/07/trubi.jpg">
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+</section>
+<article class="article">
+  <div class="article__left-text">
+    <h2>О компании</h2>
+    <p class="article__left-text-black">Торгово – производственная компания «Корпорация Gulfstream» является одним из крупнейших поставщиков электротехнической продукции на рынках Средней Азии и России</p>
+    <p>Наряду с этим мы реализуем широкий ассортимент продукции собственного производства (полиэтиленовая труба, кабельные лотки, различные металлоизделия, сборка щитового оборудования)</p>
+    <p>Мы проводим технические консультации по применению и эксплуатации оборудования (шеф монтаж). Мы имеем долгосрочные партнерские отношения с производителями Европы, Америки, стран СНГ (Schneider, Legrand, Siemens, Moeller, ABB, Eaton, General Electric).</p>
+    <p>На сегодняшний день успешно работаем и развиваем филиалы в Казахстане и Средней Азии.</p>
+  </div>
+  <hr>
+  <div class="article__right-text">
+      <h2>Наши клиенты</h2>
+      <div class="article__right-text-grey">
+        <span class = "desc-left">
+          <h4><strong>Национальные компании Казахстана</strong></h4>
+          <ul>
+            <li>АО ФНБ Самрук-Казына</li>
+            <li>Тенгизшевройл</li>
+            <li>ТОО Корпорация Казахмыс</li>
+            <li>АО НАК КазАтомпром</li>
+            <li>АО KEGOC</li>
+          </ul>
+        </span>
+      <span class = "desc-right"> 
+          <h4><strong>Крупные строительные организации</strong></h4>
+          <ul>
+            <li>ГП Аскер Курулуш</li>
+            <li>ОсОО Кыргыз Жол Курулуш</li>
+            <li>BI Group</li>
+            <li>Корпорация Базис-А</li>
+            <li>ТОО Рамс Казахстан</li>
+            <li>Группа Компаний Элитстрой</li>
+            <li>САЭС Industry</li>
+          </ul>
+        </span>
+    
+  </div>
+</article>
+<section class="advantages">
+  <hr>
+  <div class="advantages__blocks">
+    <h2 class="advantages__title">Преимущества компании</h2>
+    <ul class="advantages__block1">
+      <li><span class="glyphicon glyphicon-list" aria-hidden="true"></span>Более 100 000 маркировок</li>
+      <li><span class="glyphicon glyphicon-time"></span>Минимальный срок поставки</li>
+      <li><span class="glyphicon glyphicon-user
+"></span>Индивидуальный подход к каждому клиенту</li>
+      <li><span class="glyphicon glyphicon-signal"></span>Постоянное развитие компании</li>
+    </ul>
+    <ul class="advantages__block2">
+      <li><span class="glyphicon glyphicon-sort"></span>Подборка наилучших ценовых предложении</li>
+      <li><span class="glyphicon glyphicon-qrcode"></span>Использование передовых технологий
+      </li>
+      <li><span class="glyphicon glyphicon-ok"></span>Профессиональная команда
+      </li>
+      <li><span class="glyphicon glyphicon-thumbs-up
+"></span>Экономия бюджета за счет наработок 10-летнего опыта</li>
+    </ul>
+  </div>
+  <hr>
+</section>
+<section class="application">
+  <div class="application__background">
+
+  </div>
+  <div class="application__text" id="application__text">
+    <h4>Подбор электротехнической продукции под ваши задачи</h4>
+    <p>Менеджеры компании с радостью ответят на Ваши вопросы, произведут расчет стоимости услуг и подготовят индивидуальное коммерческое предложение.</p>
+  </div>
+  
+</section>
+	<div class="image-view"></div>
+
+    <div class="image-box">
+        <img alt="some" id="img" class="img" >
+        <div id="prev-btn"></div>
+        <div id="next-btn"></div>
+    </div>
+<section class="brands__carousel">
+
+  <hr>
+  <h2>Нам доверяют</h2>
+  <div class="brands-wrap">
+    <div class="brand-carousel" id="brandCarousel">
+      <div class="gallery-cell"><img src="https://poisk-firm.ru/storage/employer/logo/e4/cb/b1/d150cc093656981d3677c3149f.png" alt="AS инженеринг"/></div>
+      <div class="gallery-cell"><img src="https://scontent.fala4-1.fna.fbcdn.net/v/t1.18169-9/16864845_1231483660282069_7321273109799202531_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=973b4a&_nc_ohc=Lv7iTH1weeIAX-CNuXt&_nc_ht=scontent.fala4-1.fna&oh=a13837412c8a6f74099ff92807ca8958&oe=609B6F4F" alt="trc cons"/></div>
+      <div class="gallery-cell"><img src="https://almaty.hh.kz/employer-logo/1791915.png" alt="avrora"/></div>
+      <div class="gallery-cell"><img src="https://energia.kz/upload/userfiles/images/alageum_kz(1).png" alt="alageum electric"/></div>
+      <div class="gallery-cell"><img src="https://poisk-firm.ru/storage/employer/logo/3d/88/62/5089d16b37ff55186850979f32.png" alt="energo"/></div>
+	<div class="gallery-cell"><img src="https://www.skc.kz/media/5aeac494a9dea.jpg" alt="transtelecom"/></div>
+		<div class="gallery-cell"><img src="https://absolutss.com/wp-content/uploads/2017/05/logo_small-e1496113336613.png" alt="acc"/></div>
+		<div class="gallery-cell"><img src="https://images.kz.prom.st/133159953_w640_h640_ao-elektromontazh.jpg" alt="БК"/></div>
+		<div class="gallery-cell"><img src="https://yt3.ggpht.com/a/AATXAJypSylr6sju1ekBvYjoEW0rkOdfFoTE5q4_ew=s900-c-k-c0xffffffff-no-rj-mo" alt="mvk"/></div>
+		<div class="gallery-cell"><img src="https://www.lada.kz/moydom/uploads/posts/2011-10/1317728430_logo-elektrokompl.jpg" alt="электрокомплект"/></div>
+		<div class="gallery-cell"><img src="https://images.satu.kz/9359930_w640_h640_220volt.jpg" alt="220volt"/></div>
+		<div class="gallery-cell"><img src="https://avt-20.foto.mail.ru/mail/grkiskander1996/_avatar180?1371108836&mrim=1" alt="тоо грк искандер"/></div>
+		<div class="gallery-cell"><img src="https://www.enbek.kz/files/imgs/1551063861_5c735b35797e3.png" alt="kazahmys"/></div>
+		<div class="gallery-cell"><img src="https://images.kz.prom.st/73932367_w640_h640_too_okta_solyushens.jpg" alt="okta"/></div>
+		<div class="gallery-cell"><img src="https://e-s.kz/wp-content/uploads/2015/05/logo1.png" alt="пф электро"/></div>
+		<div class="gallery-cell"><img src="https://jobowork.net/files/img/too-sinter-kazahstan-inostrannoe-predpriyatie.jpg" alt="sinter"/></div>
+		<div class="gallery-cell"><img src="https://metallsnab.kz/wp-content/uploads/2017/12/company8.jpg" alt="шар курылыс"/></div>
+		<div class="gallery-cell"><img src="https://tnsintec.kz/images/2017/02/06/png4." alt="ekz"/></div>
+		<div class="gallery-cell"><img src="https://tdme.ru/partners_logo/df148.jpg" alt="электро комплект"/></div>
+		<div class="gallery-cell"><img src="https://almaty.hh.kz/employer-logo/3020437.png" alt="энергомонтажавтоматика"/></div>
+		<div class="gallery-cell"><img src="http://asiaelectro.kz/wp-content/themes/dist/img/logo_btm.jpeg" alt="энергомонтажавтоматика"/></div>
+    </div>
+  </div>
+<script type='text/javascript'>
+var flkty = new Flickity ('#brandCarousel', {
+  contain: true,
+  pageDots: false,
+  wrapAround: true,
+  freeScroll: true,
+  autoPlay: 1600,
+  fullscreen: true,
+  lazyLoad: 1,
+  imagesLoaded: true
+});
+	
+	//const allImages = document.querySelectorAll('.content');
+const imageView = document.querySelector('.image-view');
+const nextBtn = document.getElementById('next-btn');
+const prevBtn = document.getElementById('prev-btn');
+const imageBox = document.querySelector('.image-box');
+const img = document.querySelector('.img');
+
+let currentImageIdx = 0;
+let imageCount = 0;
+
+let imageArr = [
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+    ['1'],
+	['1']
+]
+
+
+
+	imageView.addEventListener('click',function(){
+		this.style.display = "none";
+		imageBox.style.display = 'none';
+		document.getElementById('navbar').style.zIndex = "1";
+	})
+	
+	const zoomBtn = document.querySelectorAll('.gallery-cell');
+	zoomBtn.forEach(function(btn,index){
+		btn.addEventListener('click',
+		function(){
+			//document.getElementById('navbar').style.position = "absolute";
+			document.getElementById('navbar').style.zIndex = "0";
+		    //imageView.style.position = "absolute";
+			imageView.style.display = "block";
+			imageView.style.zIndex = "1";
+			imageBox.style.display = "block";
+			imageBox.style.zIndex = "2";
+			currentImageIdx = index + 1;
+			imageCount = 0;
+			currentImageDisplay(currentImageIdx,imageCount);
+		})
+	})
+	
+	function currentImageDisplay(position,pos){
+    img.src = `http://asiaelectro.kz/wp-content/themes/dist/img/letter${position}-${imageArr[position-1][pos]}.jpg`;
+}
+
+prevBtn.addEventListener('click',function(){
+    //currentImageIdx--;
+    imageCount--;
+    if(imageCount === -1){
+        //currentImageIdx = allImages.length;
+        imageCount = imageArr[currentImageIdx-1].length-1;
+    }
+    currentImageDisplay(currentImageIdx,imageCount);
+})
+
+nextBtn.addEventListener('click',function(){
+    //currentImageIdx++;
+    imageCount++;
+    if(imageCount === imageArr[currentImageIdx-1].length){
+        //currentImageIdx = 1;
+        imageCount = 0;
+    }
+    currentImageDisplay(currentImageIdx,imageCount);
+})
+</script>
+	<script type="text/javascript">
+	
+	</script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.min.js"></script>
+	
+	
+	
+</section>
+    </main>
+
+
+    <footer>
+
+        <div class = "foot_wrapper">
+            
+          <img src="http://asiaelectro.kz/wp-content/uploads/2018/05/logo.png" alt="" id = "thing">
+          <ul class="footer_bar">
+              <li>
+                  <a href="./index.html" class ="">О компании</a>
+              </li>
+              <li>
+                  <a href="./products.html" class="">Наша продукция</a>
+              </li>
+              <li>
+                  <a href="./brands.html" class="">Бренды</a>
+              </li>
+              <li>
+                  <a href="./projects.html" class="">Проекты</a>
+              </li>
+              <li>
+                  <a href="./contacts.html" class="">Контакты</a>
+              </li>
+          </ul>
+
+              
+          <div class = "prava">
+            <span>© 2013-2021 – «Корпорация Гольфстрим»</span>
+          </div>
+            <br>
+            <br>
+          <span class = "address_wrapper">
+
+            <p class="address">ЖК "Хан-Тенгри", ул.Кенесары хана 54/8, корпус 2, цокольный этаж</p>
+
+          </span>
+
+          <span class="material-icons2">
+            email
+            </span>
+          <span class ="emails_wrapper">
+              <ul class = "emails"> 
+
+                <li id = "special_one">
+                  <a href="malito:office@asiaelectro.kz">office@asiaelectro.kz</a>
+                </li>
+                <li>
+                  <a href="malito:info@asiaelectro.kz">info@asiaelectro.kz</a>
+
+                </li>
+              </ul>
+          </span>
+
+        </div>
+
+
+    </footer>
+    <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
+      <i class="fa fa-chevron-up" aria-hidden="true">
+
+      </i>
+    </a>
+
+    <script>
+      $(document).ready( function() {
+        $("#scrollUp").hide(); //hide your div initially
+        var topOfOthDiv = $(".article__left-text").offset().top;
+        $(window).scroll(function() {
+            if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
+                $("#scrollUp").show(); //reached the desired point -- show div
+            }
+            
+
+            else if($(window).scrollTop() < topOfOthDiv){
+              $("#scrollUp").hide();
+
+            }
+
+        });
+      });
+    </script>
+
+</body>
+</html>

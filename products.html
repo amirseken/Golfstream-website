@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="products.css">
+       
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="shortcut icon" href="http://asiaelectro.kz/wp-content/uploads/2018/10/faviconG-1.ico" type="image/x-icon">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/css/swiper.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://yarn.pm/normalize.css">
+        <script src="https://use.fontawesome.com/103e8609ea.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/103e8609ea.css" media="all">
+       
+        <title>Каталог товаров ТОО «Корпорация Gulfstream»</title>
+        <meta name="description" content="Каталог товаров ТОО «Корпорация Gulfstream»">
+    
+      <script>
+          window.onscroll = function() {scrollFunction()};
+          function scrollFunction() {
+          if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            //document.getElementById("navbar").style.animationDuration = "0.8s",
+            //document.getElementById("navbar").style.animationName = "topchik",
+            document.getElementById("navbar").style.position = "fixed";
+            document.getElementById("navbar").style.padding = "2em 10px";
+            document.getElementById("logo").style.fontSize = "1.1em";
+            document.getElementById("header__text").style.display = "none";
+            document.getElementById("header__text2").style.display = "none";
+            document.getElementById("logo").style.gridRow = "1 / 3";
+            document.getElementById("navbar-bottom").style.gridRow = "1 / 3";
+            document.getElementById("navbar-bottom").style.gridColumn = "3 / 7";
+            document.getElementById("navbar-bottom").style.borderTop = "none";   
+            document.getElementById("header__numbers").style.display = "none";   
+          } else {
+            document.getElementById("navbar").style.animationName = "",
+            document.getElementById("navbar").style.animationDuration = "",
+            document.getElementById("navbar").style.position = "";
+            document.getElementById("navbar").style.padding = "2em 10px";
+            document.getElementById("logo").style.fontSize = "";
+            document.getElementById("header__text").style.display = "";
+            document.getElementById("header__text2").style.display = "";  
+            document.getElementById("header__numbers").style.display = "";
+            document.getElementById("navbar-bottom").style.gridRow = "";
+            document.getElementById("navbar-bottom").style.gridColumn = "";
+            document.getElementById("navbar-bottom").style.borderTop = "";
+          }
+        }
+      </script>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+   
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+         
+    </head>
+    
+<body>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/js/swiper.min.js"></script>
+    <!-- <div class="content">
+    <p class="grey4">Высококачественная электротехническая продукция в Казахстане</p>
+    <span class="material-icons">
+      call
+      </span>
+      
+    <div class="contact3">
+        <a href="tel:87272667518" class="tel grey2">+7 (727) 266-75-18</a>
+        <a href="tel:87272667519" class="tel grey2">+7 (727) 266-75-19</a>
+        <a href="tel:87272667520" class="tel grey2">+7 (727) 266-75-20</a>
+        <a href="#" class="header__numbers-button">Заказать звонок</a>
+        
+    </div>
+  </div> -->
+
+  <div class="content">
+
+
+
+
+    <div class="contact3">
+      <a href="tel:87272667518" class="tel grey2">+7 (727) 266-75-18</a>
+      <a href="tel:87272667519" class="tel grey2">+7 (727) 266-75-19</a>
+      <a href="tel:87272667520" class="tel grey2">+7 (727) 266-75-20</a>
+    </div>
+    
+    <div class = "search_bar">
+      <form role="search" method="get" id="searchform" action="http://asiaelectro.kz/?page_id=188">
+        <input type="search" value="" name="s" id="s" placeholder="Поиск продукции..." autocomplete="off" />
+        <input type="submit" id="searchsubmit" value="Поиск" />
+      </form>
+    </div>
+
+
+    <a href="#" class="header__numbers-button">Заказать звонок</a>
+      
+  </div>
+
+
+<header>
+    <div class="wrapper">
+           
+        <hr style = "margin-top: 0;">
+        <nav class="nav">
+            <a href="http://asiaelectro.kz"><img class = "logotype" src="http://asiaelectro.kz/wp-content/uploads/2016/10/logo.png" alt="gulfstream"></a>                    
+                <ul class="menu grey">
+                <li>
+                    <a href="./index.html" class ="">О компании</a>
+                </li>
+                <li>
+                    <a href="./products.html" class="">Наша продукция</a>
+                </li>
+                <li>
+                    <a href="./brands.html" class="">Бренды</a>
+                </li>
+                <li>
+                    <a href="./projects.html" class="">Проекты</a>
+                </li>
+                <li>
+                    <a href="./contacts.html" class="">Контакты</a>
+                </li>
+            </ul>
+
+            
+            <a href="http://asiaelectro.kz/ostatky/" class="ahref">
+              <div class="red">
+                Распродажа
+                </div>
+            </a>
+        </nav>
+        
+        
+        <!-- <div class = "search_bar">
+          <form role="search" method="get" id="searchform" action="http://asiaelectro.kz/?page_id=188">
+            <input type="search" value="" name="s" id="s" placeholder="Поиск продукции..." autocomplete="off" />
+            <input type="submit" id="searchsubmit" value="Поиск" />
+          </form>
+        </div> -->
+    </div>
+</header>
+
+<main>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                document.getElementById("navbar").style.position = "fixed";
+                document.getElementById("navbar").style.padding = "2em 10px";
+                document.getElementById("logo").style.fontSize = "1.1em";
+                document.getElementById("header__text").style.display = "none";
+                document.getElementById("header__text2").style.display = "none";
+                document.getElementById("logo").style.gridRow = "1 / 3";
+                document.getElementById("navbar-bottom").style.gridRow = "1 / 3";
+                document.getElementById("navbar-bottom").style.gridColumn = "3 / 7";
+                document.getElementById("navbar-bottom").style.borderTop = "none";   
+                document.getElementById("header__numbers").style.display = "none";   
+            } else {
+                document.getElementById("navbar").style.animationName = "",
+                document.getElementById("navbar").style.animationDuration = "",
+                document.getElementById("navbar").style.position = "";
+                document.getElementById("navbar").style.padding = "2em 10px";
+                document.getElementById("logo").style.fontSize = "";
+                document.getElementById("header__text").style.display = "";
+                document.getElementById("header__text2").style.display = "";  
+                document.getElementById("header__numbers").style.display = "";
+                document.getElementById("navbar-bottom").style.gridRow = "";
+                document.getElementById("navbar-bottom").style.gridColumn = "";
+                document.getElementById("navbar-bottom").style.borderTop = "";
+            }
+        }
+    </script>
+	<div style="margin-top: 0px">
+</div>
+    
+	
+	
+    <article class = "special">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="party1 ">
+                        <a href="http://asiaelectro.kz/?page_id=133"><img src="http://asiaelectro.kz/wp-content/uploads/2018/07/kabel-prov.jpg" alt="альтернативный текст">
+                            <h4><span>Кабельно-проводниковая<br>продукция</span></h4></a>
+
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="party1 eki">
+                        <a href="http://asiaelectro.kz/?page_id=2424"><img src="http://asiaelectro.kz/wp-content/uploads/2018/07/kabel-mufty.jpg" alt="альтернативный текст">
+                            <h4><span>Кабельные муфты</span></h4></a>
+                       
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="party1 ush">
+                        <a href="http://asiaelectro.kz/?page_id=2446"><img src="http://asiaelectro.kz/wp-content/uploads/2018/07/armatura-sip.jpg" alt="альтернативный текст">
+                            <h4><span>Арматура на СИП</span></h4></a>
+                      
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="party1 tort">
+                        <a href="http://asiaelectro.kz/?page_id=2466"><img src="http://asiaelectro.kz/wp-content/uploads/2018/07/armatura-as.jpg" alt="альтернативный текст">
+                            <h4><span>Арматура на АС</span></h4></a>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="party1 bes">
+                        <a href="http://asiaelectro.kz/?page_id=2490"><img src="http://asiaelectro.kz/wp-content/uploads/2018/10/svetotehnika-1024x576.jpg" alt="альтернативный текст">
+                            <h4><span>Светотехника</span></h4></a>
+                      
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="party1 alty">
+                        <a href="http://asiaelectro.kz/?page_id=2536"><img src="http://asiaelectro.kz/wp-content/uploads/2018/07/nizkovolt.jpg" alt="альтернативный текст">
+                            <h4><span>Низковольтное оборудование</span></h4></a>
+                    
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="party1 jety">
+                        <a href="http://asiaelectro.kz/?page_id=40732"><img src="http://asiaelectro.kz/wp-content/uploads/2018/07/vysokovolt.jpg" alt="альтернативный текст">
+                            <h4><span>Высоковольтное оборудование</span></h4></a>
+                    
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="party1 segiz">
+                        <a href="http://asiaelectro.kz/?page_id=40928"><img src="http://asiaelectro.kz/wp-content/uploads/2018/07/transformator.jpg" alt="альтернативный текст">
+                            <h4><span>Трансформаторы и подстанции</span></h4></a>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="party1">
+                        <a href="http://asiaelectro.kz/?page_id=29010"><img src="http://asiaelectro.kz/wp-content/uploads/2018/07/kabelni-lotok.jpg" alt="альтернативный текст">
+                            <h4><span>Кабельные лотки и металлоизделия</span></h4></a>
+                      
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="party1 alty">
+                        <a href="http://asiaelectro.kz/?page_id=40969"><img src="http://asiaelectro.kz/wp-content/uploads/2018/07/shit.jpg" alt="альтернативный текст">
+                            <h4><span>Сборка щитового оборудования</span></h4></a>
+                       
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="party1">
+                        <a href="http://asiaelectro.kz/?page_id=40969"><img src="http://asiaelectro.kz/wp-content/uploads/2018/07/stroy_montazh.jpg" alt="альтернативный текст">
+                            <h4><span>Строительно-монтажные работы</span></h4></a>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="party1">
+                        <a href="http://asiaelectro.kz/?page_id=40967"><img src="http://asiaelectro.kz/wp-content/uploads/2018/07/polietilen.jpg" alt="альтернативный текст">
+                            <h4><span>Полиэтиленовые трубы и аксессуары</span></h4></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="party1">
+                        <a href="http://asiaelectro.kz/?page_id=42382 "><img src="http://asiaelectro.kz/wp-content/uploads/2018/10/composite_armature.jpg " alt="альтернативный текст ">
+                            <h4><span>Композитная арматура</span></h4></a>
+                      
+                    </div>
+                </div>
+				<div class="col-sm-3 ">
+                    <div class="party1 ">
+                        <a href="http://asiaelectro.kz/?page_id=42509 "><img src="http://asiaelectro.kz/wp-content/uploads/2020/04/c36f072b-68bc-4fcb-bb84-e781574f0306.jpg" alt="Защищённые лотки ">
+                            <h4><span>Защищённые лотки</span></h4></a>
+                       
+                    </div>
+                </div>
+				<div class="col-sm-3 ">
+                    <div class="party1 ">
+                        <a href="http://asiaelectro.kz/?page_id=42512 "><img src="http://asiaelectro.kz/wp-content/uploads/2020/04/unnamed.jpg" alt="Горная автоматика и взрывозащита ">
+                            <h4><span>Горная автоматика и взрывозащита</span></h4></a>
+
+                    </div>
+                </div>
+				
+                <div class="col-sm-3 ">
+                    <div class="party1 ">
+                        <a href="http://asiaelectro.kz/ostatky/"><img src="http://asiaelectro.kz/wp-content/uploads/2018/10/zapchasti-dlya-bytovoj-tekhniki-sklad-spb.jpg " alt="альтернативный текст ">
+                            <h4><span>Складские остатки</span></h4></a>
+         
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+				
+                <div class="col-sm-3">
+                    <div class="party1">
+                        <a href="http://asiaelectro.kz/denair/"><img src="http://www.denair.net/templets/skin/image/air_compressor_factory.jpg" alt="альтернативный текст ">
+                            <h4><span>DENAIR</span></h4></a>
+                    </div>
+                </div>
+				
+				<div class="col-sm-3">
+                    <div class="party1">
+                        <a href="http://asiaelectro.kz/siemens/"><img src="https://w3.siemens.ru/images/1_siemens.ru/210325_kazahstan_580.jpg" alt="альтернативный текст ">
+                            <h4><span>Siemens</span></h4></a>
+                    </div>
+                </div>
+				
+            </div>
+        </div>
+		<script>
+   
+</script>
+    </article>
+
+</main>
+
+<footer>
+
+    <div class = "foot_wrapper">
+        
+      <img src="http://asiaelectro.kz/wp-content/uploads/2018/05/logo.png" alt="" id = "thing">
+      <ul class="footer_bar">
+            <li>
+                <a href="./index.html" class ="">О компании</a>
+            </li>
+            <li>
+                <a href="./products.html" class="">Наша продукция</a>
+            </li>
+            <li>
+                <a href="./brands.html" class="">Бренды</a>
+            </li>
+            <li>
+                <a href="./projects.html" class="">Проекты</a>
+            </li>
+            <li>
+                <a href="./contacts.html" class="">Контакты</a>
+            </li>
+      </ul>
+
+          
+      <div class = "prava">
+        <span>© 2013-2021 – «Корпорация Гольфстрим»</span>
+      </div>
+        <br>
+        <br>
+      <span class = "address_wrapper">
+
+        <p class="address">ЖК "Хан-Тенгри", ул.Кенесары хана 54/8, корпус 2, цокольный этаж</p>
+
+      </span>
+
+      <span class="material-icons2">
+        email
+        </span>
+      <span class ="emails_wrapper">
+          <ul class = "emails"> 
+
+            <li id = "special_one">
+              <a href="malito:office@asiaelectro.kz">office@asiaelectro.kz</a>
+            </li>
+            <li>
+              <a href="malito:info@asiaelectro.kz">info@asiaelectro.kz</a>
+
+            </li>
+          </ul>
+      </span>
+
+    </div>
+
+
+</footer>
+<!--
+<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
+    <i class="fa fa-chevron-up" aria-hidden="true">
+
+    </i>
+  </a>
+
+  <script>
+    $(document).ready( function() {
+      $("#scrollUp").hide(); //hide your div initially
+      var topOfOthDiv = $("").offset().top;
+      $(window).scroll(function() {
+          if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
+              $("#scrollUp").show(); //reached the desired point -- show div
+          }
+          
+
+          else if($(window).scrollTop() < topOfOthDiv){
+            $("#scrollUp").hide();
+
+          }
+
+      });
+    });
+  </script>
+
+
+-->
+</body>
+
+</html>

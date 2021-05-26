@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projects.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" href="http://asiaelectro.kz/wp-content/uploads/2018/10/faviconG-1.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/css/swiper.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://yarn.pm/normalize.css">
+    <script src="https://use.fontawesome.com/103e8609ea.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/103e8609ea.css" media="all">
+     
+
+	<title>Каталог товаров ТОО «Корпорация Gulfstream»</title>
+	<meta name="description" content="Каталог товаров ТОО «Корпорация Gulfstream»">
+
+  <script>
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        //document.getElementById("navbar").style.animationDuration = "0.8s",
+        //document.getElementById("navbar").style.animationName = "topchik",
+        document.getElementById("navbar").style.position = "fixed";
+        document.getElementById("navbar").style.padding = "2em 10px";
+        document.getElementById("logo").style.fontSize = "1.1em";
+        document.getElementById("header__text").style.display = "none";
+        document.getElementById("header__text2").style.display = "none";
+        document.getElementById("logo").style.gridRow = "1 / 3";
+        document.getElementById("navbar-bottom").style.gridRow = "1 / 3";
+        document.getElementById("navbar-bottom").style.gridColumn = "3 / 7";
+        document.getElementById("navbar-bottom").style.borderTop = "none";   
+        document.getElementById("header__numbers").style.display = "none";   
+      } else {
+        document.getElementById("navbar").style.animationName = "",
+        document.getElementById("navbar").style.animationDuration = "",
+        document.getElementById("navbar").style.position = "";
+        document.getElementById("navbar").style.padding = "2em 10px";
+        document.getElementById("logo").style.fontSize = "";
+        document.getElementById("header__text").style.display = "";
+        document.getElementById("header__text2").style.display = "";  
+        document.getElementById("header__numbers").style.display = "";
+        document.getElementById("navbar-bottom").style.gridRow = "";
+        document.getElementById("navbar-bottom").style.gridColumn = "";
+        document.getElementById("navbar-bottom").style.borderTop = "";
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+   
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+     
+</head>
+<body>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/js/swiper.min.js"></script>
+  <!-- <div class="content">
+    <p class="grey4">Высококачественная электротехническая продукция в Казахстане</p>
+    <span class="material-icons">
+      call
+      </span>
+      
+    <div class="contact3">
+        <a href="tel:87272667518" class="tel grey2">+7 (727) 266-75-18</a>
+        <a href="tel:87272667519" class="tel grey2">+7 (727) 266-75-19</a>
+        <a href="tel:87272667520" class="tel grey2">+7 (727) 266-75-20</a>
+        <a href="#" class="header__numbers-button">Заказать звонок</a>
+        
+    </div>
+  </div> -->
+
+  <div class="content">
+
+
+
+
+    <div class="contact3">
+      <a href="tel:87272667518" class="tel grey2">+7 (727) 266-75-18</a>
+      <a href="tel:87272667519" class="tel grey2">+7 (727) 266-75-19</a>
+      <a href="tel:87272667520" class="tel grey2">+7 (727) 266-75-20</a>
+    </div>
+    
+    <div class = "search_bar">
+      <form role="search" method="get" id="searchform" action="http://asiaelectro.kz/?page_id=188">
+        <input type="search" value="" name="s" id="s" placeholder="Поиск продукции..." autocomplete="off" />
+        <input type="submit" id="searchsubmit" value="Поиск" />
+      </form>
+    </div>
+
+
+    <a href="#" class="header__numbers-button">Заказать звонок</a>
+      
+  </div>
+
+
+        <header>
+  
+            <div class="wrapper">
+           
+                <hr style = "margin-top: 0;">
+                <nav class="nav">
+                    <a href="http://asiaelectro.kz"><img class = "logotype" src="http://asiaelectro.kz/wp-content/uploads/2016/10/logo.png" alt="gulfstream"></a>                     
+                    
+                        <ul class="menu grey">
+                        <li>
+                          <a href="./index.html" class ="">О компании</a>
+                      </li>
+                      <li>
+                          <a href="./products.html" class="">Наша продукция</a>
+                      </li>
+                      <li>
+                          <a href="./brands.html" class="">Бренды</a>
+                      </li>
+                      <li>
+                          <a href="./projects.html" class="">Проекты</a>
+                      </li>
+                      <li>
+                          <a href="./contacts.html" class="">Контакты</a>
+                      </li>
+                    </ul>
+    
+                    
+                    <a href="http://asiaelectro.kz/ostatky/" class="ahref">
+                      <div class="red">
+                        Распродажа
+                        </div>
+                    </a>
+                </nav>
+                
+                
+                <!-- <div class = "search_bar">
+                  <form role="search" method="get" id="searchform" action="http://asiaelectro.kz/?page_id=188">
+                    <input type="search" value="" name="s" id="s" placeholder="Поиск продукции..." autocomplete="off" />
+                    <input type="submit" id="searchsubmit" value="Поиск" />
+                  </form>
+                </div> -->
+            </div>
+           
+</header>
+<main>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                document.getElementById("navbar").style.position = "fixed";
+                document.getElementById("navbar").style.padding = "2em 10px";
+                document.getElementById("logo").style.fontSize = "1.1em";
+                document.getElementById("header__text").style.display = "none";
+                document.getElementById("header__text2").style.display = "none";
+                document.getElementById("logo").style.gridRow = "1 / 3";
+                document.getElementById("navbar-bottom").style.gridRow = "1 / 3";
+                document.getElementById("navbar-bottom").style.gridColumn = "3 / 7";
+                document.getElementById("navbar-bottom").style.borderTop = "none";   
+                document.getElementById("header__numbers").style.display = "none";   
+            } else {
+                document.getElementById("navbar").style.animationName = "",
+                document.getElementById("navbar").style.animationDuration = "",
+                document.getElementById("navbar").style.position = "";
+                document.getElementById("navbar").style.padding = "2em 10px";
+                document.getElementById("logo").style.fontSize = "";
+                document.getElementById("header__text").style.display = "";
+                document.getElementById("header__text2").style.display = "";  
+                document.getElementById("header__numbers").style.display = "";
+                document.getElementById("navbar-bottom").style.gridRow = "";
+                document.getElementById("navbar-bottom").style.gridColumn = "";
+                document.getElementById("navbar-bottom").style.borderTop = "";
+            }
+        }
+    </script>
+	<div style="margin-top: 10px">
+</div>
+    
+	
+	
+
+        <section>
+
+            <article>
+                <img  src="https://new.samruk-energy.kz/images/zimg/c/c331da8233e712cccea1057805a3db86.jpg" alt="">
+                <div class="content-right">
+                    <h1>ТЭЦ г.Актобе</h1>
+                    <p>Поставка материалов и оборудования (2013-2014 год)</p>
+                </div>
+            </article>
+
+           <article>
+            <div class="content-right">
+                <h1>ZHERSU</h1>
+                <p>Обслуживание строящихся подстанций(2015-2016 год)</p>
+            </div>
+            <img src="http://new.zhersu.kz/uploaded/photo_galery_metalloobrabotka/m0.JPG" alt="">
+           </article>
+
+           <article>
+                <img src="https://static.tildacdn.com/tild3533-6365-4737-b430-633732643538/_.jpg" alt="">
+                <div class="content-right">
+                    <h1>МоллАпорт Алматы</h1>
+                    <p>Электромонтаж ( 2017 год)</p>
+                </div>
+           </article>
+
+            <article>
+                <div id = "overhere" class="content-right">
+                    <h1>Азиатский Газопровод</h1>
+                    <p>Поставкакабельно–проводниковой продукции,системы оповещения LELAS (2017-2018 год)</p>
+                </div>
+                <img src="https://kaztransgas.kz/images/01_news/30.11.2017/111.jpg" alt="">
+            </article>
+
+            <article>
+                <img src="https://storage.yvision.kz/images/user/lord_fame/m02nUc4xti6tKy50Pp8n8PY9V7OJyF.jpg" alt="">
+                <div class="content-right">
+                    <h1>ГЭС г. Зыряновск ВКО</h1>
+                    <p>КИПиА, поставка, монтаж, пуско-наладка   (2018 год)</p>
+                </div>
+            </article>
+
+            <article>
+                <div class="content-right">
+                    <h1>КазГАСА г.Алматы</h1>
+                    <p>Ремонт бытовых комнат в доме студентов  (2018 год)</p>
+                </div>
+                <img src="https://www.alem-edu.kz/wp-content/uploads/2020/05/tqo0arbqnt0fsxg0it4ogvlhry0zfk3v.jpg" alt="">
+            </article>
+            <article>
+                <img src="https://astana.vsesdelki.kz/content/c/1-1-1/2015/20150727/u185927/offers/201507/f20150727130006-2149338_w640_h640_3c33ce70d25994b2b5745d589a.jpg" alt="">
+                <div class="content-right">
+                    <h1>ТЭК Казахстан</h1>
+                    <p>Покраска РВС (2018-2019 год)</p>
+                </div>
+            </article>
+
+            <article>
+                <div class="content-right">
+                    <h1>Крытый бассейн</h1>
+                    <p>Участие в строительстве крытого бассейна г.Талдыкорган(2019 год)</p>
+                </div>
+                <img src="https://eatechnology.kz/sites/default/files/styles/services_page_images/public/img_4919.jpg?itok=-pJJytkC" alt="">
+            </article>
+
+            <article>
+                <img src="http://s018.radikal.ru/i510/1603/fc/b3522d45dd16.jpg" alt="">
+                <div class="content-right">
+                    <h1>СЭЗ «Хоргос–Восточные ворота» Сухой порт</h1>
+                    <p>Поставка материалов и оборудования (2013-2014 год)</p>
+                </div>
+            </article>
+           
+        </section>
+
+    </main>
+	
+
+
+    <footer>
+
+        <div class = "foot_wrapper">
+            
+          <img src="http://asiaelectro.kz/wp-content/uploads/2018/05/logo.png" alt="" id = "thing">
+          <ul class="footer_bar">
+              <li>
+                  <a href="./index.html" class ="">О компании</a>
+              </li>
+              <li>
+                  <a href="./products.html" class="">Наша продукция</a>
+              </li>
+              <li>
+                  <a href="./brands.html" class="">Бренды</a>
+              </li>
+              <li>
+                  <a href="./projects.html" class="">Проекты</a>
+              </li>
+              <li>
+                  <a href="./contacts.html" class="">Контакты</a>
+              </li>
+          </ul>
+
+              
+          <div class = "prava">
+            <span>© 2013-2021 – «Корпорация Гольфстрим»</span>
+          </div>
+            <br>
+            <br>
+          <span class = "address_wrapper">
+
+            <p class="address">ЖК "Хан-Тенгри", ул.Кенесары хана 54/8, корпус 2, цокольный этаж</p>
+
+          </span>
+
+          <span class="material-icons2">
+            email
+            </span>
+          <span class ="emails_wrapper">
+              <ul class = "emails"> 
+
+                <li id = "special_one">
+                  <a href="malito:office@asiaelectro.kz">office@asiaelectro.kz</a>
+                </li>
+                <li>
+                  <a href="malito:info@asiaelectro.kz">info@asiaelectro.kz</a>
+
+                </li>
+              </ul>
+          </span>
+
+        </div>
+
+
+    </footer>
+
+    <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
+        <i class="fa fa-chevron-up" aria-hidden="true">
+  
+        </i>
+      </a>
+  
+      <script>
+        $(document).ready( function() {
+          $("#scrollUp").hide(); //hide your div initially
+          var topOfOthDiv = $("#overhere").offset().top;
+          $(window).scroll(function() {
+              if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
+                  $("#scrollUp").show(); //reached the desired point -- show div
+              }
+              
+  
+              else if($(window).scrollTop() < topOfOthDiv){
+                $("#scrollUp").hide();
+  
+              }
+  
+          });
+        });
+      </script>
+  
+
+	</body>
+
+</html>
