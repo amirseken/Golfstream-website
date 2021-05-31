@@ -79,7 +79,7 @@
         
     </div>
   </div> -->
-
+  <div class = "head_wrap">
   <div class="content">
 
 
@@ -129,8 +129,26 @@
                           <a href="./contacts.html" class="">Контакты</a>
                       </li>
                     </ul>
-    
-                    
+                    <div class="dropdown">
+                      <button onclick="myFunction1()" class="dropbtn">Menu</button>
+                          <!-- <div class = "burgermenu" onclick = "myFunction()" >
+      
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                      
+                          </div> -->
+                       
+      
+      
+                        <div id="myDropdown" class="dropdown-content">
+                          <a href="./index.html" class ="">О компании</a>
+                          <a href="./products.html" class="">Наша продукция</a>
+                          <a href="./brands.html" class="">Бренды</a>
+                          <a href="./projects.html" class="">Проекты</a>
+                          <a href="./contacts.html" class="">Контакты</a>
+                        </div>
+                      </div>
                     <a href="http://asiaelectro.kz/ostatky/" class="ahref">
                       <div class="red">
                         Распродажа
@@ -148,6 +166,8 @@
             </div>
            
 </header>
+
+</div>
 <main>
     <script>
         window.onscroll = function() {scrollFunction()};
@@ -290,17 +310,14 @@
           <div class = "prava">
             <span>© 2013-2021 – «Корпорация Гольфстрим»</span>
           </div>
-            <br>
-            <br>
+           
           <span class = "address_wrapper">
 
             <p class="address">ЖК "Хан-Тенгри", ул.Кенесары хана 54/8, корпус 2, цокольный этаж</p>
 
           </span>
 
-          <span class="material-icons2">
-            email
-            </span>
+         
           <span class ="emails_wrapper">
               <ul class = "emails"> 
 
@@ -344,6 +361,37 @@
         });
       </script>
   
+  <script>
+   
+
+
+
+    $(document).ready(function(){
+      $('.burgermenu').click(function(){
+        $(this).toggleClass('open');
+      });
+    });
+
+
+    function myFunction1() {
+document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+if (!event.target.matches('.dropbtn')) {
+  var dropdowns = document.getElementsByClassName("dropdown-content");
+  var i;
+  for (i = 0; i < dropdowns.length; i++) {
+    var openDropdown = dropdowns[i];
+    if (openDropdown.classList.contains('show')) {
+      openDropdown.classList.remove('show');
+    }
+  }
+}
+}
+
+  </script>
 
 	</body>
 

@@ -8,11 +8,16 @@ html{
 
     border-top: none !important;
 }
+
+
 .address_wrapper p{
 
   color: white;
+    font-family: 'Ubuntu', sans-serif;
   display: inline-block;
-  margin-left: 400px;
+  font-weight: 500;
+  font-size: 1.2em;
+ 
 }
 footer li a{
 
@@ -629,8 +634,8 @@ footer li a{
 }
 
 		.main{
-      width: 1300px;
-      margin: 0 10px 0 10px;
+      width: 100%;
+      margin-left: 5%;
 		}
 		.section{
 			display: block;
@@ -668,7 +673,7 @@ footer li a{
       -ms-flex-align: center;
       align-items: center;
       padding: 3px;
-      border: 1px solid lightgrey;
+     
   }
 		.article99 img{
 			width: 220px;
@@ -1333,7 +1338,7 @@ footer li a{
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
     font-family: 'Roboto' , sans-serif;
 }
 
@@ -1345,6 +1350,7 @@ body{
 #searchsubmit{
     background-color: #124193;
     border: none;
+    margin-left: 2px;
     outline: none;
     border-radius: 2em;
     padding: 0.5em;
@@ -1360,7 +1366,7 @@ body{
 
 header{
     width: 100%;
-    background:#f5fdffeb;
+    
 }
 .wrapper{
     display: block;
@@ -1449,7 +1455,7 @@ header{
 }
 .emails_wrapper ul li {
 
-    margin-left: 10px;
+    margin-left: 30px;
 
 
 
@@ -1488,12 +1494,12 @@ header{
 .emails_wrapper ul {
     
     margin-left: 0px;
-    display: inline-block;
+    display: inline-flex;
         list-style: none;
 }
 #special_one{
 
-    margin-left: 10px;
+    margin-left: 5px;
 
 }
 
@@ -1575,11 +1581,7 @@ header{
     background: white;
 }
 /* nav bar*/
-.nav{
-    width: 1300px;
-    margin: 0 auto;
-    display: inline-flex;
-}
+
 .menu{
     display: inline-flex;
 
@@ -1620,14 +1622,36 @@ header{
 
 .foot_wrapper{
     
-    
-    background-color:#124193 ;
+  background-color: #124193;
+  
+  align-items: center;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-auto-flow: row;
+  justify-items: center;
+  
 
+  .address_wrapper{
+
+
+    grid-row: 4/5;
+  }
+
+  .emails_wrapper{
+
+
+    grid-row: 3/4;
+  }
+  .prava{
+
+
+    grid-row: 5/6;
+  }
 }
 
 .footer_bar{
 
-    display: inline-flex;
+   display: inline-flex;
     color: white;
     justify-content: center;
     margin: 0 40px 0 50px;
@@ -1729,14 +1753,14 @@ header{
 
 
 }
+.head_wrap{
 
+  padding-left: 15%;
+
+}
 @media(max-width: 1200px){
 
   .wrapper{
-    
-   
-
-    
 
     .nav{
       display: grid;
@@ -1785,10 +1809,10 @@ header{
     grid-template-rows: repeat(3, 1fr);
 
     .prava{
-
+      
       grid-column: 2/3;
       grid-row: 3/4;
-      margin-left: 20px;
+      margin-left: 5px;
     }
 
     .footer_bar{
@@ -1838,7 +1862,7 @@ header{
     display: grid;
     PADDING-left: 20PX;
   .emails_wrapper{
-
+    justify-self: flex-start;
     margin-left: 0;
     grid-row: 3/4;
     grid-column: 1/2;
@@ -1852,24 +1876,272 @@ header{
   }
 
   .prava{
-
+    justify-self: flex-start;
     grid-column: 1/2;
     grid-row: 5/6;
-    margin-left: 10px;
+    
     margin-bottom: 20px;
   }
 }
 }
 
 
+
 @media (max-width: 1200px){
-.wrapper .nav {
-    display: -ms-grid;
+  .wrapper .nav {
+      display: -ms-grid;
+      display: grid;
+      width: 100%;
+      margin: 0 auto;
+    
+      
+
+
+
+      
+  }}
+@media(max-width: 351px){
+.emails_wrapper ul{
+
+  display: grid;
+
+  li, #special_one{
+
+    margin-left: 0;
+  }
+  
+
+}
+
+}
+
+
+@media(max-width: 695px) {
+
+
+  .head_wrap{
+
+    padding-left: 0 !important;
+  } 
+
+
+}
+
+
+@media(max-width: 600px){
+
+  .dropdown{
+
+
+    display: inline-block !important;
+    grid-row: 1/span 2;
+
+    grid-column: 1/ span 2;
+  }
+  .grey{
+    display: none;
+  }
+
+  .burgermenu span{
+
+    display:inline-none;
+  }
+  
+  .burgermenu{
+    display: none;
+    flex-direction: row;
+    width: 30%;
+    margin: 0 20%;
+  }
+  
+  .head_wrap{
+      
+    padding-left: 0 !important;
+  } 
+  
+
+}
+@media(max-width: 500px) {
+
+  #thing{
+
+    display: none;
+
+
+
+  }
+  .nav{
+
+
     display: grid;
-    width: 100%;
-    margin: 0 auto;
-    -ms-grid-columns: (1fr)[7];
-    grid-template-columns: repeat(7, 1fr);
-    -ms-grid-rows: (1fr)[2];
-    grid-template-rows: repeat(2, 1fr);
-}}
+
+    grid-template-columns: repeat(3, 1fr) !important;
+
+    grid-template-rows: repeat(1, 1fr) !important;
+  }
+
+  .logotype{
+
+      display: none;
+
+  }
+
+  #searchform{
+
+      width: 20%;
+     
+  }
+
+  .search_bar{
+
+      margin-left: 5%;
+      padding-left: 70%;
+  }
+
+  .contact3{
+
+
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .burgermenu{
+
+    display: inline-block !important;
+    grid-column: 1 / 3;
+        grid-row: 1/2;
+
+    span{
+
+      display: inline-block;
+      grid-column: 2 / span 2;
+      
+    }
+  }
+  .footer_bar{
+        
+    grid-row: 1/3 !important;
+    flex-direction: column;
+
+
+  }
+}
+
+
+.open{
+
+  overflow: visible;
+}
+
+.burgermenu span{
+
+display: none;
+position: static;
+width: 10px;
+ overflow: visible;
+
+  height: 9px;
+  width: 100%;
+  background:#262626;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+
+  transition: .25s ease-in-out;
+
+}
+
+
+
+.burgermenu span:nth-child(1) {
+top: 0px;
+color: #262626;
+transform-origin: left center;
+}
+
+.burgermenu span:nth-child(2) {
+top: 18px;
+
+transform-origin: left center;
+}
+
+.burgermenu span:nth-child(3) {
+top: 36px;
+
+transform-origin: left center;
+}
+
+
+
+
+.burgermenu.open span:nth-child(1) {
+
+transform: rotate(45deg);
+top: -3px;
+left: 8px;
+}
+
+.burgermenu.open span:nth-child(2) {
+width: 0%;
+opacity: 0;
+}
+
+.burgermenu.open span:nth-child(3) {
+
+transform: rotate(-45deg);
+top: 39px;
+left: 8px;
+}
+
+
+
+
+.nav{
+
+  display: flex;
+}
+
+
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000000;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+footer {
+  background-color: #124193;
+}

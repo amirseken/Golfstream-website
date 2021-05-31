@@ -53,7 +53,7 @@
         
     </div>
   </div> -->
-
+  <div class = "head_wrap">
   <div class="content">
 
 
@@ -101,7 +101,26 @@
                   <a href="./contacts.html" class="">Контакты</a>
               </li>
             </ul>
+            <div class="dropdown">
+              <button onclick="myFunction1()" class="dropbtn">Menu</button>
+                  <!-- <div class = "burgermenu" onclick = "myFunction()" >
 
+                    <span></span>
+                    <span></span>
+                    <span></span>
+              
+                  </div> -->
+               
+
+
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="./index.html" class ="">О компании</a>
+                  <a href="./products.html" class="">Наша продукция</a>
+                  <a href="./brands.html" class="">Бренды</a>
+                  <a href="./projects.html" class="">Проекты</a>
+                  <a href="./contacts.html" class="">Контакты</a>
+                </div>
+              </div>
             
             <a href="http://asiaelectro.kz/ostatky/" class="ahref">
               <div class="red">
@@ -120,7 +139,7 @@
     </div>
    
 </header>
-	
+	</div>
     <script>
         window.onscroll = function() {scrollFunction()};
         function scrollFunction() {
@@ -155,7 +174,29 @@
 </div>
     
 	 <article>
-      <div class="container-fluid">
+
+    <div class = "article_wrapper">
+      <address class="address1">
+        <h3>Адрес</h3>
+        <p>050070, Республика Казахстан</p> 
+        <p>город Алматы</p> 
+        <p>ЖК "Хан-Тенгри", ул.Кенесары хана 54/8,<br> корпус 2, цокольный этаж</p>
+        <p><strong>Тел:</strong> <a href="tel:+7 (727) 266-75-18">+7 (727) 266-75-18</a><br><span class="vpravo"><a href="tel:+7 (727) 266-75-19">+7 (727) 266-75-19</a></span><br><span class="vpravo"><a href="tel:+7 (727) 266-75-20">+7 (727) 266-75-20</a></span></p>
+        <p><strong>Часы работы:</strong> 09:00-18:00</p>
+      </address>
+      <form class="svyaz">
+        <h3>Связаться с нами</h3>
+        <p>Оставьте свою заявку, и мы свяжемся с вами.</p>
+        <p><input type="text" name="Имя" placeholder="Ваше имя"></p>
+        <p><input type="text" name="Имя" placeholder="Название компании"></p>
+        <p><input type="text" name="Имя" placeholder="Номер телефона"></p>
+        <textarea placeholder="Опишите ваш запрос"></textarea>
+        <p><cite class="small">Нажимая кнопку «Отправить», вы соглашаетесь на обработку персональных данных в соответствии<br> с Политикой конфиденциальности.</cite></p>
+        <button>Отправить</button>
+      </form>
+    </div>
+    <hr>
+    <div class="container-fluid">
         <div class="row">
           <div class="col-md-3">
             <h4>Отдел продаж</h4>
@@ -178,26 +219,8 @@
             <p><a href="malito:it@asiaelectro.kz">it@asiaelectro.kz</a></p>
           </div>
         </div>
-      </div>
-      <hr>
-    <address class="address1">
-      <h3>Адрес</h3>
-      <p>050070, Республика Казахстан</p> 
-      <p>город Алматы</p> 
-      <p>ЖК "Хан-Тенгри", ул.Кенесары хана 54/8,<br> корпус 2, цокольный этаж</p>
-      <p><strong>Тел:</strong> <a href="tel:+7 (727) 266-75-18">+7 (727) 266-75-18</a><br><span class="vpravo"><a href="tel:+7 (727) 266-75-19">+7 (727) 266-75-19</a></span><br><span class="vpravo"><a href="tel:+7 (727) 266-75-20">+7 (727) 266-75-20</a></span></p>
-      <p><strong>Часы работы:</strong> 09:00-18:00</p>
-    </address>
-    <form class="svyaz">
-      <h3>Связаться с нами</h3>
-      <p>Оставьте свою заявку, и мы свяжемся с вами.</p>
-      <p><input type="text" name="Имя" placeholder="Ваше имя"></p>
-      <p><input type="text" name="Имя" placeholder="Название компании"></p>
-      <p><input type="text" name="Имя" placeholder="Номер телефона"></p>
-      <textarea placeholder="Опишите ваш запрос"></textarea>
-      <p><cite class="small">Нажимая кнопку «Отправить», вы соглашаетесь на обработку персональных данных в соответствии<br> с Политикой конфиденциальности.</cite></p>
-      <button>Отправить</button>
-    </form>
+    </div>
+    
   </article>
 	  <div style="margin-top: 70px">
  
@@ -226,22 +249,24 @@
                   <a href="./contacts.html" class="">Контакты</a>
               </li>
           </ul>
+          <div class = "burgermenu">
 
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
               
           <div class = "prava">
             <span>© 2013-2021 – «Корпорация Гольфстрим»</span>
           </div>
-            <br>
-            <br>
+            
           <span class = "address_wrapper">
 
             <p class="address">ЖК "Хан-Тенгри", ул.Кенесары хана 54/8, корпус 2, цокольный этаж</p>
 
           </span>
 
-          <span class="material-icons2">
-            email
-            </span>
+         
           <span class ="emails_wrapper">
               <ul class = "emails"> 
 
@@ -259,30 +284,37 @@
 
 
     </footer>
-    <!--
-    <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
-      <i class="fa fa-chevron-up" aria-hidden="true">
-
-      </i>
-    </a>
-
+    
     <script>
-      $(document).ready( function() {
-        $("#scrollUp").hide(); //hide your div initially
-        var topOfOthDiv = $(".article__right-text-grey").offset().top;
-        $(window).scroll(function() {
-            if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
-                $("#scrollUp").show(); //reached the desired point -- show div
-            }
-            
+     
 
-            else if($(window).scrollTop() < topOfOthDiv){
-              $("#scrollUp").hide();
 
-            }
 
-        });
+      $(document).ready(function(){
+	      $('.burgermenu').click(function(){
+	    	  $(this).toggleClass('open');
+	      });
       });
-    </script>-->
+
+
+      function myFunction1() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+    </script>
 	</body>		  
 </html>
